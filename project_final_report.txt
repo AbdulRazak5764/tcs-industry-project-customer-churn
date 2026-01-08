@@ -1,0 +1,46 @@
+
+CUSTOMER CHURN PREDICTION PROJECT - FINAL REPORT
+============================================================
+
+BEST MODEL: LogisticRegression
+============================================================
+
+PERFORMANCE METRICS:
+- Accuracy: 0.7395
+- Precision: 0.5060
+- Recall: 0.7888
+- F1-Score: 0.6165
+- ROC-AUC: 0.8457
+- PR-AUC: 0.6647
+
+BUSINESS IMPACT:
+- Net Savings: $213,000.00
+- ROI: 365.4%
+- Correctly Identified Churners: 295
+- False Alarms: 288
+- Missed Churners: 79
+
+TECHNICAL DETAILS:
+- Dataset: IBM Watson Telco Customer Churn
+- Total Samples: 7043
+- Features Used: 68
+- Class Imbalance Handling: SMOTE
+- Test Size: 20%
+- Ensemble Methods: Voting, Stacking
+
+KEY INSIGHTS:
+1. Month-to-month contracts have highest churn rate
+2. Fiber optic internet users have high churn rate
+3. Electronic check payment method has highest churn
+4. Model achieves 74.0% accuracy in predicting churn
+5. Business can save $213,000 annually using this model
+
+PROJECT DELIVERABLES:
+1. Trained ML model with 0.8457 ROC-AUC
+2. Preprocessing pipeline for new data
+3. Comprehensive visualizations
+4. Deployment-ready prediction API
+5. Business impact analysis
+6. Complete project documentation
+
+PROJECT STATUS: COMPLETED SUCCESSFULLY

@@ -1,0 +1,23 @@
+{
+    "model_type": "LogisticRegression",
+    "training_date": "2026-01-08 21:22:21",
+    "features_used": 68,
+    "training_samples": 7243,
+    "test_samples": 1409,
+    "class_distribution": {
+        "no_churn": 4139,
+        "churn": 3104
+    },
+    "performance_metrics": {
+        "accuracy": 0.7395315826827538,
+        "precision": 0.5060034305317325,
+        "recall": 0.7887700534759359,
+        "f1_score": 0.6165099268547545,
+        "roc_auc": 0.845666382495027,
+        "pr_auc": 0.6647116096663127
+    },
+    "business_impact": {
+        "net_savings": 213000.0,
+        "roi": 365.3516295025729
+    }
+}
